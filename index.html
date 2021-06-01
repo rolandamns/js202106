@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Operadores en Javascripts </title>
+</head>
+<body>
+
+  <script>
+    console.log("Sample code 2021 Jun 01")
+
+    function esUnTriangulo(a,b,c){
+      return (a+b>c) && (b+c>a) && (a+c>b);
+    }
+    console.log(esUnTriangulo(1,1,1));
+    console.log(esUnTriangulo(1,1,3));
+
+    /* Operadores */
+    let a = 5 + 5- 10 / 2 * 3;
+    let modulo = 5 % 2;
+    console.log("residuo de 5 / 2 s%",modulo)
+
+    console.log(a)
+    let i = 1;
+
+    i +=2;
+    console.log(i);
+
+    console.log(" Aumento ", i++ , ++i)
+
+
+
+    /*
+    = es una asigncion de valor
+    == comparacion de valores
+    === comparacion de valores y tipo de dato
+    */
+
+
+  </script>
+</body>
+</html>
